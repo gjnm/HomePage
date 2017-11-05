@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="result_card_bg">#EAEAEA</color>
+    <color name="hard_ware_btn_local_white">#ccffffff</color>
+    <color name="local_white">#ffffff</color>
+    <color name="dialog_widget_warning_color">#ed4968</color>
+    <color name="one_key_switch_on">#00d32d</color>
+    <color name="item_text_title">#000000</color>
+    <color name="item_text_content">#838B8B</color>
+</resources>

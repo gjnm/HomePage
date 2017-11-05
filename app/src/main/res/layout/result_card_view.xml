@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <FrameLayout
+        android:id="@+id/title_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/transparent"/>
+
+    <FrameLayout
+        android:id="@+id/list_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/result_card_header_height"
+        android:background="@color/dialog_widget_warning_color">
+
+        <page.home.com.gjnm.homepage.widget.MyRecyclerview
+            android:id="@+id/card_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:overScrollMode="never"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/slide_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/diagnostic_arrow_margin_top"
+        android:src="@mipmap/access_finish_slide_arrow"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/slide_arrow_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/result_card_layout_bg"
+        android:gravity="center"
+        android:paddingLeft="@dimen/slide_arrow_tv_padding"
+        android:paddingRight="@dimen/slide_arrow_tv_padding"
+        android:text="我是滑动提示"
+        android:textColor="@color/local_white"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
